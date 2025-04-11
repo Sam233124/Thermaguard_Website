@@ -32,23 +32,25 @@ export default function ContactPage() {
     <div className="min-h-screen bg-gray-100">
       {/* Header met navigatie */}
       <header className="bg-slate-800 text-white p-4">
-        <nav className="container mx-auto flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold">Thermaguard</Link>
-          <div className="flex space-x-4">
-            <Link href="/" className="hover:text-gray-300">Home</Link>
-            <Link href="/products" className="hover:text-gray-300">Producten</Link>
-            <Link href="/contact" className="hover:text-gray-300">Contact</Link>
+        <nav className="container mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <Link href="/" className="text-xl md:text-2xl font-bold">Thermaguard</Link>
+            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+              <Link href="/" className="hover:text-gray-300">Home</Link>
+              <Link href="/products" className="hover:text-gray-300">Producten</Link>
+              <Link href="/contact" className="hover:text-gray-300">Contact</Link>
+            </div>
           </div>
         </nav>
       </header>
 
       <main className="container mx-auto py-8 px-4">
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Informatie */}
           <div>
-            <h1 className="text-4xl font-bold mb-6">Contact</h1>
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h2 className="text-2xl font-bold mb-4">Thermaguard</h2>
+            <h1 className="text-3xl md:text-4xl font-bold mb-6">Contact</h1>
+            <div className="bg-white rounded-lg shadow-lg p-4 md:p-6">
+              <h2 className="text-xl md:text-2xl font-bold mb-4">Thermaguard</h2>
               <div className="space-y-4">
                 <p>
                   <strong>Adres:</strong><br />
@@ -69,8 +71,8 @@ export default function ContactPage() {
 
           {/* Contact Formulier */}
           <div>
-            <h2 className="text-2xl font-bold mb-6">Stuur ons een bericht</h2>
-            <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-lg p-6 space-y-4">
+            <h2 className="text-xl md:text-2xl font-bold mb-6">Stuur ons een bericht</h2>
+            <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-lg p-4 md:p-6 space-y-4">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                   Naam
