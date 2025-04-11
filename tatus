@@ -1,0 +1,9 @@
+user.name=SamdeJong03
+user.email=508662@student.fontys.nl
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.https://git.fhict.nl.provider=generic
+safe.directory=E:/Thermaguard_Website/Thermaguard_Website
+safe.directory=E:/Thermaguard_Website/Thermaguard_Website

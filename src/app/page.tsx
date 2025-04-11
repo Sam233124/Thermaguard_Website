@@ -29,7 +29,7 @@ export default function Home() {
               className="px-2 py-1 rounded bg-white text-black focus:outline-none focus:ring-2 focus:ring-primary"
             />
             <Link 
-              href="https://uw-shopify-url.com" 
+              href="https://shop.thermaguard.nl" 
               className="bg-primary text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-opacity-90 transition"
             >
               Bestel Nu!
@@ -61,7 +61,7 @@ export default function Home() {
             </p>
             <div className="flex space-x-4">
               <Link 
-                href="https://uw-shopify-url.com" 
+                href="https://shop.thermaguard.nl" 
                 className="bg-primary text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-opacity-90 transition"
               >
                 Bestel Nu!

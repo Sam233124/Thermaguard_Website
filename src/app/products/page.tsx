@@ -62,9 +62,12 @@ export default function ProductsPage() {
                 <p className="text-gray-600 mb-4">{product.description}</p>
                 <div className="flex justify-between items-center">
                   <span className="text-2xl font-bold text-primary">{product.price}</span>
-                  <button className="bg-primary text-white px-4 py-2 rounded hover:bg-opacity-90 transition">
+                  <Link 
+                    href="https://shop.thermaguard.nl"
+                    className="bg-primary text-white px-4 py-2 rounded hover:bg-opacity-90 transition"
+                  >
                     Meer Info
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
