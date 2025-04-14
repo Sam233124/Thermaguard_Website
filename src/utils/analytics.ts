@@ -10,7 +10,7 @@ export const GA_EVENTS = {
 // Track page views
 export const pageview = (url: string) => {
   if (typeof window.gtag === 'function') {
-    window.gtag('config', 'G-XXXXXXXXXX', {
+    window.gtag('config', 'G-0JYRSDTFDE', {
       page_path: url,
     });
   }

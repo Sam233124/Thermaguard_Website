@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { Analytics } from '@/components/Analytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,14 +24,14 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         />
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0JYRSDTFDE"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-XXXXXXXXXX');
+              gtag('config', 'G-0JYRSDTFDE');
             `,
           }}
         />
@@ -39,6 +40,7 @@ export default function RootLayout({
         <div className="min-h-screen bg-gray-100">
           {children}
         </div>
+        <Analytics />
       </body>
     </html>
   )
