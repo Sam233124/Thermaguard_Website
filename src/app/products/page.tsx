@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { trackProductView, trackShopClick } from '@/utils/analytics';
 
 export default function ProductsPage() {
   const products = [
@@ -28,6 +29,11 @@ export default function ProductsPage() {
       image: '/images/ski-boot.jpg'
     }
   ];
+
+  const handleProductClick = (product: typeof products[0]) => {
+    trackProductView(product.name, product.id.toString());
+    trackShopClick('Product Detail');
+  };
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -67,6 +73,7 @@ export default function ProductsPage() {
                   <Link 
                     href="https://shop.thermaguard.nl"
                     className="bg-primary text-white px-4 py-2 rounded hover:bg-opacity-90 transition w-full md:w-auto text-center"
+                    onClick={() => handleProductClick(product)}
                   >
                     Meer Info
                   </Link>

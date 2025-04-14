@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { trackFormSubmit } from '@/utils/analytics';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -13,6 +14,8 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    // Track form submission
+    trackFormSubmit('Contact Form');
     // Hier komt de logica voor het versturen van het formulier
     console.log('Form submitted:', formData);
     // Reset form
