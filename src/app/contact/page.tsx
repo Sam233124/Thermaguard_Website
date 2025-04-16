@@ -40,7 +40,7 @@ export default function ContactPage() {
             <Link href="/" className="text-xl md:text-2xl font-bold">Thermaguard</Link>
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
               <Link href="/" className="hover:text-gray-300">Home</Link>
-              <Link href="/products" className="hover:text-gray-300">Producten</Link>
+              <Link href="/about" className="hover:text-gray-300">Over ons</Link>
               <Link href="/contact" className="hover:text-gray-300">Contact</Link>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function ContactPage() {
           <div>
             <h1 className="text-3xl md:text-4xl font-bold mb-6">Contact</h1>
             <div className="bg-white rounded-lg shadow-lg p-4 md:p-6">
-              <h2 className="text-xl md:text-2xl font-bold mb-4">Thermaguard</h2>
+              <h2 className="text-xl md:text-2xl font-bold mb-4">Thermaguard - Experts in Skischoen Warmhouden</h2>
               <div className="space-y-4">
                 <p>
                   <strong>Adres:</strong><br />
@@ -67,6 +67,10 @@ export default function ContactPage() {
                 <p>
                   <strong>Email:</strong><br />
                   info@thermaguard.nl
+                </p>
+                <p className="text-sm text-gray-600 mt-4">
+                  Heeft u vragen over onze waterdichte overschoenen voor skischoenen of warmte-isolerende hoes voor skischoenen? 
+                  Neem contact met ons op voor tips voor warme voeten tijdens skiën en de beste oplossing voor koude voeten skiën.
                 </p>
               </div>
             </div>

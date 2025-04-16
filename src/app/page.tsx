@@ -14,7 +14,7 @@ export default function Home() {
             <Link href="/" className="flex items-center space-x-2 hover:text-gray-300 transition">
               <Image
                 src="/images/thermaguard-logo.png"
-                alt="Thermaguard Logo"
+                alt="Thermaguard - Beste oplossing koude voeten skiën"
                 width={60}
                 height={60}
                 className="w-auto h-auto"
@@ -23,6 +23,7 @@ export default function Home() {
             </Link>
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8">
               <Link href="/" className="hover:text-gray-300">Home</Link>
+              <Link href="/about" className="hover:text-gray-300">Over ons</Link>
               <Link href="/contact" className="hover:text-gray-300">Contact</Link>
               <input
                 type="text"
@@ -46,7 +47,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/images/ski-background.jpg"
-            alt="Ski achtergrond"
+            alt="Skischoen warmhouden met Thermaguard - Voordelen van skischoen warmer voor wintersport"
             fill
             style={{ objectFit: 'cover' }}
             priority
@@ -59,7 +60,7 @@ export default function Home() {
             </h1>
             <p className="text-lg md:text-xl text-gray-200 mb-6 md:mb-8">
               Ervaar het ultieme comfort met onze geavanceerde thermische technologie voor skischoenen. 
-              Wij zorgen voor warme voeten en optimale prestaties op de piste.
+              Wij bieden de beste overschoen voor skiën in extreme kou en waterdichte overschoenen voor skischoenen.
             </p>
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
               <Link 
@@ -90,7 +91,8 @@ export default function Home() {
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-4">Optimale Temperatuur</h3>
               <p className="text-gray-600">
-                Onze innovatieve technologie zorgt voor een constante en aangename temperatuur in uw skischoenen.
+                Onze warmte-isolerende hoes voor skischoenen zorgt voor een constante en aangename temperatuur, 
+                de beste oplossing voor koude voeten tijdens skiën.
               </p>
             </div>
             <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg">
@@ -99,7 +101,8 @@ export default function Home() {
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-4">Duurzame Bescherming</h3>
               <p className="text-gray-600">
-                Hoogwaardige materialen en vakmanschap garanderen langdurige bescherming en comfort.
+                Onze thermische overschoen voor skiboots biedt hoogwaardige bescherming skischoen 
+                en garandeert langdurige bescherming en comfort.
               </p>
             </div>
             <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg">
@@ -108,7 +111,8 @@ export default function Home() {
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-4">Maximale Prestatie</h3>
               <p className="text-gray-600">
-                Verbeter uw ski-ervaring met perfect passende en verwarmde skischoenen.
+                Met onze isolatie hoes voor skischoenen verbeter je je ski-ervaring en voorkom je 
+                koude tenen skischoenen oplossen.
               </p>
             </div>
           </div>
@@ -122,13 +126,14 @@ export default function Home() {
             <div className="text-center md:text-left">
               <Image
                 src="/images/thermaguard-logo.png"
-                alt="Thermaguard Logo"
+                alt="Thermaguard - Extra warme skischoen hoes voor kinderen en volwassenen"
                 width={60}
                 height={60}
                 className="mb-4 mx-auto md:mx-0 w-auto h-auto"
               />
+              <h3 className="text-xl font-bold mb-2">Optimale warmte, duurzame bescherming</h3>
               <p className="text-gray-300">
-                Optimale warmte, duurzame bescherming voor uw skischoenen.
+                Voor uw skischoenen. Tips voor warme voeten tijdens skiën en koude voeten wintersport oplossen.
               </p>
             </div>
             <div className="text-center md:text-left">
@@ -153,6 +158,9 @@ export default function Home() {
                 </a>
                 <a href="https://www.instagram.com/thermaguard.nl?igsh=MXE0cnZ5djlrMGg3OQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
                   <i className="fab fa-instagram text-xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/thermaguard/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+                  <i className="fab fa-linkedin text-xl"></i>
                 </a>
               </div>
             </div>

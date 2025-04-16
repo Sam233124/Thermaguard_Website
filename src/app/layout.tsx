@@ -6,8 +6,9 @@ import { Analytics } from '@/components/Analytics'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Thermaguard - Optimale warmte, duurzame bescherming',
-  description: 'Specialisten in verwarmde skischoenen en thermische bescherming',
+  title: 'Thermaguard - Skischoen warmhouden | Beste oplossing koude voeten skiën',
+  description: 'Specialisten in verwarmde skischoenen en thermische bescherming. Waterdichte overschoenen voor skischoenen en warmte-isolerende hoes voor skischoenen. Tips voor warme voeten tijdens skiën.',
+  keywords: 'skischoen warmhouden, bescherming skischoen, isolatie hoes voor skischoenen, koude voeten tijdens skiën, cold feet while skiing, hoes skischoenen, koude voeten wintersport, beste oplossing koude voeten skiën, tips voor warme voeten tijdens skiën, voordelen van skischoen warmer voor wintersport, koude tenen skischoenen oplossen, waterdichte overschoenen voor skischoenen, thermische overschoen voor skiboots, warmte-isolerende hoes voor skischoenen, overschoen tegen sneeuw in skischoenen, neopreen skischoen covers voor extra comfort, skischoen overtrek tegen koude tenen, ski boot cover voor natte omstandigheden, extra warme skischoen hoes voor kinderen, beste overschoen voor skiën in extreme kou',
 }
 
 export default function RootLayout({
