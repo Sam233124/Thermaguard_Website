@@ -37,7 +37,7 @@ export default function ContactPage() {
       <header className="bg-slate-800 text-white p-4">
         <nav className="container mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <Link href="/" className="text-xl md:text-2xl font-bold">Thermaguard</Link>
+            <Link href="/" className="text-xl md:text-2xl font-bold">ThermaGuard</Link>
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
               <Link href="/" className="hover:text-gray-300">Home</Link>
               <Link href="/about" className="hover:text-gray-300">Over ons</Link>
@@ -53,7 +53,7 @@ export default function ContactPage() {
           <div>
             <h1 className="text-3xl md:text-4xl font-bold mb-6">Contact</h1>
             <div className="bg-white rounded-lg shadow-lg p-4 md:p-6">
-              <h2 className="text-xl md:text-2xl font-bold mb-4">Thermaguard - Experts in Skischoen Warmhouden</h2>
+              <h2 className="text-xl md:text-2xl font-bold mb-4">ThermaGuard - Experts in Skischoen Warmhouden</h2>
               <div className="space-y-4">
                 <p>
                   <strong>Adres:</strong><br />

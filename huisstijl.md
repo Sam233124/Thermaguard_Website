@@ -1,4 +1,4 @@
-# Thermaguard Website Huisstijl
+# ThermaGuard Website Huisstijl
 
 ## Kleuren
 

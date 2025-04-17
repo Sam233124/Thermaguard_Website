@@ -14,12 +14,12 @@ export default function Home() {
             <Link href="/" className="flex items-center space-x-2 hover:text-gray-300 transition">
               <Image
                 src="/images/thermaguard-logo.png"
-                alt="Thermaguard - Beste oplossing koude voeten skiën"
+                alt="ThermaGuard - Beste oplossing koude voeten skiën"
                 width={60}
                 height={60}
                 className="w-auto h-auto"
               />
-              <span className="text-xl md:text-2xl font-bold">Thermaguard</span>
+              <span className="text-xl md:text-2xl font-bold">ThermaGuard</span>
             </Link>
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8">
               <Link href="/" className="hover:text-gray-300">Home</Link>
@@ -47,7 +47,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/images/ski-background.jpg"
-            alt="Skischoen warmhouden met Thermaguard - Voordelen van skischoen warmer voor wintersport"
+            alt="Skischoen warmhouden met ThermaGuard - Voordelen van skischoen warmer voor wintersport"
             fill
             style={{ objectFit: 'cover' }}
             priority
@@ -83,7 +83,7 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">Waarom Thermaguard?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">Waarom ThermaGuard?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg">
               <div className="text-primary text-3xl md:text-4xl mb-4">
@@ -126,7 +126,7 @@ export default function Home() {
             <div className="text-center md:text-left">
               <Image
                 src="/images/thermaguard-logo.png"
-                alt="Thermaguard - Extra warme skischoen hoes voor kinderen en volwassenen"
+                alt="ThermaGuard - Extra warme skischoen hoes voor kinderen en volwassenen"
                 width={60}
                 height={60}
                 className="mb-4 mx-auto md:mx-0 w-auto h-auto"

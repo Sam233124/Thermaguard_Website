@@ -1,6 +1,6 @@
-# Thermaguard Website
+# ThermaGuard Website
 
-Een professionele website voor Thermaguard skischoenen service.
+Een professionele website voor ThermaGuard skischoenen service.
 
 ## Technologieën
 
@@ -85,3 +85,7 @@ vercel --prod
 5. Analytics:
    - Voeg Google Analytics of Vercel Analytics toe
    - Implementeer event tracking 
+
+## Contact
+
+Voor vragen of suggesties, neem contact op met het development team. 
