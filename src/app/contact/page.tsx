@@ -33,20 +33,6 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      {/* Header met navigatie */}
-      <header className="bg-slate-800 text-white p-4">
-        <nav className="container mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <Link href="/" className="text-xl md:text-2xl font-bold">ThermaGuard</Link>
-            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
-              <Link href="/" className="hover:text-gray-300">Home</Link>
-              <Link href="/about" className="hover:text-gray-300">Over ons</Link>
-              <Link href="/contact" className="hover:text-gray-300">Contact</Link>
-            </div>
-          </div>
-        </nav>
-      </header>
-
       <main className="container mx-auto py-8 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Informatie */}
@@ -60,13 +46,8 @@ export default function ContactPage() {
                   Rachelsmolen 1<br />
                   5612 MA Eindhoven
                 </p>
-                <p>
-                  <strong>Telefoon:</strong><br />
-                  +31 (0)6 12345678
-                </p>
-                <p>
-                  <strong>Email:</strong><br />
-                  info@thermaguard.nl
+                <p className="text-gray-600">
+                  Email: thermaguardnl@gmail.com
                 </p>
                 <p className="text-sm text-gray-600 mt-4">
                   Heeft u vragen over onze waterdichte overschoenen voor skischoenen of warmte-isolerende hoes voor skischoenen? 

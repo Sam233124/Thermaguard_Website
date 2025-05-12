@@ -7,20 +7,6 @@ import Link from 'next/link';
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gray-100">
-      {/* Header met navigatie */}
-      <header className="bg-slate-800 text-white p-4">
-        <nav className="container mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <Link href="/" className="text-xl md:text-2xl font-bold">ThermaGuard</Link>
-            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
-              <Link href="/" className="hover:text-gray-300">Home</Link>
-              <Link href="/about" className="hover:text-gray-300">Over ons</Link>
-              <Link href="/contact" className="hover:text-gray-300">Contact</Link>
-            </div>
-          </div>
-        </nav>
-      </header>
-
       <main className="container mx-auto py-8 px-4">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-8">Over ThermaGuard</h1>
         
