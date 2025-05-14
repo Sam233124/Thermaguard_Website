@@ -20,7 +20,7 @@ export default function Header() {
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8">
             <Link href="/" className="hover:text-gray-300">Home</Link>
             <Link href="/about" className="hover:text-gray-300">Over ons</Link>
-            <Link href="/contact" className="hover:text-gray-300">Contact</Link>
+            <a href="https://shop.thermaguard.nl/pages/contact" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">Contact</a>
             <input
               type="text"
               placeholder="Zoeken..."

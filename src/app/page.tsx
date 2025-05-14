@@ -85,6 +85,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Waarom onze overschoen Section */}
+      <section className="py-12 bg-primary/10">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
+          <div className="flex-1">
+            <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4">Waarom onze overschoen?</h2>
+            <p className="text-gray-700 mb-6 max-w-xl">
+              Onze overschoenen zijn verkrijgbaar in verschillende kleuren en met unieke prints zoals panterprint. Dankzij de universele pasvorm zijn ze geschikt voor vrijwel alle soorten en maten skischoenen. Kies voor comfort, stijl en flexibiliteit op de piste!
+            </p>
+            <a
+              href="/waarom-overschoen"
+              className="inline-block bg-primary text-white px-8 py-3 rounded-lg text-lg font-bold shadow-lg hover:bg-opacity-90 transition"
+            >
+              Lees meer
+            </a>
+          </div>
+          <div className="flex-1 flex justify-center">
+            <img src="/images/Thermaguard_product1.png" alt="ThermaGuard Overschoen" className="w-48 h-48 object-contain rounded-lg shadow-lg bg-white" />
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-slate-800 text-white py-8 md:py-12">
         <div className="container mx-auto px-4">
@@ -97,10 +118,6 @@ export default function Home() {
                 height={60}
                 className="mb-4 mx-auto md:mx-0 w-auto h-auto"
               />
-              <h3 className="text-xl font-bold mb-2">Optimale warmte, duurzame bescherming</h3>
-              <p className="text-gray-300">
-                Voor uw skischoenen. Tips voor warme voeten tijdens skiën en koude voeten wintersport oplossen.
-              </p>
             </div>
             <div className="text-center md:text-left">
               <h4 className="text-lg font-bold mb-4">Contact</h4>
@@ -112,7 +129,9 @@ export default function Home() {
               <h4 className="text-lg font-bold mb-4">Menu</h4>
               <ul className="space-y-2">
                 <li><Link href="/" className="text-gray-300 hover:text-white">Home</Link></li>
-                <li><Link href="/contact" className="text-gray-300 hover:text-white">Contact</Link></li>
+                <li><Link href="/about" className="text-gray-300 hover:text-white">Over ons</Link></li>
+                <li><Link href="/waarom-overschoen" className="text-gray-300 hover:text-white">Waarom onze overschoen?</Link></li>
+                <li><a href="https://shop.thermaguard.nl/pages/contact" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">Contact</a></li>
               </ul>
             </div>
             <div className="text-center md:text-left">
